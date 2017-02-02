@@ -47,7 +47,15 @@
           </execution>
         </executions>
       </plugin>
+      <plugin>
+        <groupId>com.github.jasimone</groupId>
+        <artifactId>webapp-runner</artifactId>
+        <version>7.0.40.0</version>
+      </plugin>
     </plugins>
+    <pluginManagement>
+      <plugins/>
+    </pluginManagement>
   </build>
   <dependencies>
     <dependency>

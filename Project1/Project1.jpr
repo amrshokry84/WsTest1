@@ -173,4 +173,7 @@
       <value n="j2eeWebAppName" v="WsTest1-Project1-webapp"/>
       <value n="j2eeWebContextRoot" v="WsTest1-Project1-context-root"/>
    </hash>
+   <hash n="oracle.jdevimpl.config.JProjectPaths">
+      <url n="outputDirectory" path="classes/"/>
+   </hash>
 </jpr:project>
