@@ -22,6 +22,11 @@
         <artifactId>webapp-runner</artifactId>
         <version>7.0.40.0</version>
       </plugin>
+      <plugin>
+        <groupId>com.oracle.adf.plugin</groupId>
+        <artifactId>ojdeploy</artifactId>
+        <version>12.2.1-0-0</version>
+      </plugin>
     </plugins>
     <pluginManagement>
       <plugins/>
