@@ -61,4 +61,27 @@
     <url>https://maven.oracle.com</url>
   </pluginRepository>
 </pluginRepositories>
+<profiles>
+   <!-- comment everythnig else -->
+
+   <profile>
+     <id>main</id>
+     <activation>
+       <activeByDefault>true</activeByDefault>
+     </activation>
+     <repositories>
+       <repository>
+         <id>Maven Central</id>
+         <name>Maven Central</name>
+         <url>http://repo.maven.apache.org/maven2</url>
+       </repository>
+       <repository>
+         <id>maven.oracle.com</id>
+         <name>maven.oracle.com</name>
+         <url>https://maven.oracle.com</url>
+       </repository>
+     </repositories>
+   </profile>
+
+  </profiles>
 </project>
