@@ -18,11 +18,6 @@
     <outputDirectory>classes/</outputDirectory>
     <plugins>
       <plugin>
-        <groupId>com.github.jsimone</groupId>
-        <artifactId>webapp-runner</artifactId>
-        <version>7.0.40.0</version>
-      </plugin>
-      <plugin>
         <groupId>com.oracle.adf.plugin</groupId>
         <artifactId>ojdeploy</artifactId>
         <version>12.2.1-0-0</version>
@@ -42,6 +37,7 @@
     </dependency>
   </dependencies>
   <properties>
+  <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <oracleHome>
       ${env.ORACLE_HOME}
     </oracleHome>
